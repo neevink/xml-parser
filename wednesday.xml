@@ -1,0 +1,15 @@
+﻿<schedule>
+    <day name="Среда">
+        <lesson name="Дискретная математика">
+            <time time="10:00-11:30" evenweek="false" />
+            <place audience="2202" building="ул.Ломоносова, д.9, лит. А"/>
+            <teacher name="Поляков Владимир Иванович" />
+            <format format="Очно - дистанционный"/>
+        </lesson>
+        <lesson name="Иностранный язык">
+            <time time="11:40-13:10"/>
+            <place building="ул.Ломоносова, д.9, лит. Е"/>
+            <format format="Очно - дистанционный" />
+        </lesson>
+    </day>
+</schedule>
