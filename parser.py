@@ -132,7 +132,7 @@ def entity_in_json(ent):
 xml_path = r"E:\Programming\GitRepositories\xml-parser\wednesday.xml"
 f = open(xml_path, 'r', encoding="utf-8")
 xml_text = ' '.join(f.readlines())
-f.close
+f.close()
 
 #Почему-то приписывается в начале файла "\ufeff", пофикшу
 start_utf = "\ufeff"
@@ -148,4 +148,4 @@ json_text = entity_in_json(parsed_entities)
 json_path = r"E:\Programming\GitRepositories\xml-parser\wednesday.json"
 f = open(json_path, 'w', encoding="utf-8")
 f.write(json_text)
-f.close
+f.close()
